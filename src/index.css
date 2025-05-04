@@ -53,9 +53,9 @@
     min-height: 100vh;
     @apply w-full;
 
-    @media (min-width: 768px) {
+    /* @media (min-width: 768px) {
       padding: 10rem;
-    }
+    } */
   }
 
   .pattern {
