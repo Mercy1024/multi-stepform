@@ -27,7 +27,6 @@
     font-size: var(--body-font-size);
     font-optical-sizing: auto;
     background: var(--light-blue);
-    min-height: 100vh;
   }
 
   header {
@@ -50,7 +49,6 @@
 
 @layer components {
   .container {
-    height: 100vh;
     @apply w-full;
 
     /* @media (min-width: 768px) {
@@ -334,8 +332,8 @@
       background-color: var(--magnolia);
     }
 
-    & .clickedAddon {
-      background-color: var(--magnolia);
+    & .clickedAddon{
+       background-color: var(--magnolia);
       border: 1px solid var(--purplish-blue);
     }
   }
